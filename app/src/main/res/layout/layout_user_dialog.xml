@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffffff">
+
+    <ImageView android:id="@+id/ivAlertAskIcon"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:width="30dp"
+        android:height="30dp"
+        android:background="#F3F3F4"
+        android:gravity="center"
+        android:padding="15dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/baseline_check_circle_outline_green_500_24dp"
+        android:visibility="gone" />
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView android:id="@+id/tvDialogModal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginBottom="20dp"
+                android:gravity="center_horizontal"
+                android:text="TEXT"
+                android:textAlignment="center"
+                android:textColor="#ff000000"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnOkDialogModal"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0sp"
+                android:layout_marginTop="5.0sp"
+                android:layout_marginRight="15.0sp"
+                android:layout_marginBottom="5.0sp"
+                android:layout_weight="1.0"
+                android:background="@color/colorSecondaryDark"
+                android:gravity="center_horizontal"
+                android:paddingTop="10.0sp"
+                android:paddingBottom="10.0sp"
+                android:text="Ok"
+                android:textColor="#FAF7F7"
+                android:textSize="10sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

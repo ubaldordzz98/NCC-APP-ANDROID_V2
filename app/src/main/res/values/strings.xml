@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Production and Tracking</string>
+    <string name="applicationName" translatable="false">Nucor</string>
+
+    <string name="URL_ADDRESS" translatable="false">https://oldblueboat26.conveyor.cloud/</string>
+
+    <string name="Administrator" translatable="false">1</string>
+    <string name="Gerente" translatable="false">2</string>
+    <string name="Inventarios" translatable="false">3</string>
+
+    <string name="time_zone_default" translatable="false">America/Mexico_City</string>
+    <string name="login" translatable="true">Login</string>
+    <string name="userName" translatable="true">User Name</string>
+    <string name="password" translatable="true">Password</string>
+    <string name="showPassword" translatable="true">Show Password</string>
+    <string name="signIn" translatable="true">Sign In</string>
+    <string name="home">Home</string>
+    <string name="readQr">Scan QR</string>
+    <string name="navigation">Navigation</string>
+</resources>

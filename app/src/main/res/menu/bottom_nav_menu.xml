@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_coils"
+        android:icon="@drawable/coil"
+        android:title="Coils" />
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/shipping"
+        android:title="Shipping" />
+    <item
+        android:id="@+id/navigation_manual_navegation"
+        android:icon="@drawable/explore_white_24dp"
+        android:title="Navigation"
+        android:visible="false" />
+    <item
+        android:id="@+id/navigation_drums"
+        android:icon="@drawable/drum"
+        android:title="Drums" />
+    <item
+        android:id="@+id/navigation_inventory"
+        android:icon="@drawable/pysical_inventory"
+        android:title="Inventory" />
+</menu>

@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffffff">
+
+    <ImageView android:id="@+id/ivAlertSendIcon"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:height="30dp"
+        android:width="30dp"
+        android:padding="10dp"
+        android:background="@color/colorPrimaryLight"
+        android:src="@drawable/baseline_done_24"
+        android:scaleType="fitCenter" />
+
+    <TextView android:id="@+id/tvSendDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TEXT"
+        android:layout_below="@+id/ivAlertSendIcon"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="15sp"
+        android:textColor="#ff000000"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal" />
+
+    <EditText android:id="@+id/etWriteSendDialog"
+        android:layout_width="328dp"
+        android:layout_height="97dp"
+        android:layout_below="@+id/tvSendDialog"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textColor="#ff000000"
+        android:textSize="10sp" />
+
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_below="@+id/etWriteSendDialog"
+        android:layout_marginTop="20dp">
+
+        <Button android:id="@+id/btnSendOkDialog"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:layout_marginLeft="15.0sp"
+            android:layout_marginTop="5.0sp"
+            android:layout_marginRight="15.0sp"
+            android:layout_marginBottom="5.0sp"
+            android:paddingTop="10.0sp"
+            android:paddingBottom="10.0sp"
+            android:textSize="10sp"
+            android:gravity="center_horizontal"
+            android:background="@color/colorSecondaryDark"
+            android:text="Aceptar"
+            android:textColor="#FAF7F7" />
+
+        <Button android:id="@+id/btnSendCancelDialog"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:layout_marginLeft="15.0sp"
+            android:layout_marginTop="5.0sp"
+            android:textSize="10sp"
+            android:layout_marginRight="15.0sp"
+            android:layout_marginBottom="5.0sp"
+            android:paddingTop="10.0sp"
+            android:paddingBottom="10.0sp"
+            android:gravity="center_horizontal"
+            android:background="@color/filterBackground"
+            android:text="CANCELAR"
+            android:textColor="@color/colorTextSecondary" />
+
+    </LinearLayout>
+
+</RelativeLayout>
